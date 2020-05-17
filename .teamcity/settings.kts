@@ -84,6 +84,21 @@ object id03Firefox : BuildType({
     }
 })
 
+object id03Safari : BuildType({
+    templates(Template_1)
+    id("03Safari")
+    name = "03. Safari"
+
+    params {
+        param("Browsers", "Safari")
+    }
+
+    dependencies {
+        snapshot(id01FastTest) {
+        }
+    }
+})
+
 object DeployToStaging : BuildType({
     name = "Deploy to Staging"
 
@@ -95,6 +110,8 @@ object DeployToStaging : BuildType({
         snapshot(id02Chrome) {
         }
         snapshot(id03Firefox) {
+        }
+        snapshot(id03Safari) {
         }
     }
 })
