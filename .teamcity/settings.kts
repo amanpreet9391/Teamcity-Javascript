@@ -43,6 +43,7 @@ object id01FastTest : BuildType({
     templates(Template_1)
     id("01FastTest")
     name = "01.Fast Test"
+    description = "Browser for this is PhantomJS"
 
     steps {
         script {
