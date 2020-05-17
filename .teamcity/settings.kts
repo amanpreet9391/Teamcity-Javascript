@@ -91,7 +91,7 @@ object id03Safari : BuildType({
     name = "03. Safari"
 
     params {
-        param("Browsers", "Safari")
+        param("Browsers", "Safari under Mac")
     }
 
     dependencies {
