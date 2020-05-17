@@ -32,6 +32,7 @@ project {
     vcsRoot(HttpsGithubComG0t4teamcityCourseCards)
 
     buildType(id03Firefox)
+    buildType(id03Safari)
     buildType(id01FastTest)
     buildType(DeployToStaging)
     buildType(id02Chrome)
